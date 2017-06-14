@@ -899,10 +899,14 @@ executive
 Tor?</a></h3>
 
     <p>
-    Tor Browser does not install itself in the classic sense of
-applications. You just simply delete the folder or directory named "Tor
-Browser" and it is removed from your system.
-    </p>
+    On Windows and Linux, Tor Browser does not install itself in the classic
+sense of applications. You just simply delete the folder or directory named "Tor
+Browser" and it is removed from your system. On macOS, you drag the Tor Browser
+application icon from the "Applications" folder to the trash as you would to
+uninstall any other application; however, you must also delete the
+<code>~/Library/Application Support/TorBrowser-Data</code> directory. To get to
+it, press cmd-shift-g while in Finder and copy/paste that directory into the
+box that appears.
 
     <p>
     If this is not related to Tor Browser, uninstallation depends
